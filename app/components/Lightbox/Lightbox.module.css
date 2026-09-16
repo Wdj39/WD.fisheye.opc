@@ -1,0 +1,76 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.lightbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.mediaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.mediaWrapper {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+}
+
+.media {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.caption {
+  color: #fff;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.closeButton {
+  position: absolute;
+  top: -3rem;
+  right: 0;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.prevButton,
+.nextButton {
+  background: none;
+  border: none;
+  color: #901c1c;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: 0 1rem;
+  flex-shrink: 0;
+}
+
+.prevButton:hover,
+.nextButton:hover,
+.prevButton:focus,
+.nextButton:focus {
+  color: #d3573c;
+}

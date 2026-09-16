@@ -1,0 +1,126 @@
+.page {
+  min-height: 100vh;
+  background-color: #fafafa;
+  font-family: sans-serif;
+  padding-bottom: 80px;
+}
+
+.header {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.logoLink {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #901c1c;
+}
+
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 2rem;
+  margin: 0 2rem;
+  gap: 2rem;
+}
+
+.name {
+  color: #d3573c;
+  margin: 0 0 0.5rem;
+}
+
+.city {
+  color: #901c1c;
+  font-weight: bold;
+  margin: 0 0 0.25rem;
+}
+
+.tagline {
+  margin: 0;
+  color: #333;
+}
+
+.contactButton {
+  background-color: #901c1c;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.contactButton:hover,
+.contactButton:focus {
+  background-color: #d3573c;
+}
+
+.portraitWrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.portrait {
+  object-fit: cover;
+}
+
+.mediaTitle {
+  padding: 0 2rem;
+  color: #901c1c;
+}
+
+.mediaList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0 2rem;
+  margin: 0;
+}
+
+.mediaItem {
+  width: 300px;
+}
+
+.mediaThumb {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.mediaCaption {
+  display: flex;
+  justify-content: space-between;
+  color: #901c1c;
+  margin: 0.5rem 0;
+}
+
+.likes {
+  color: #901c1c;
+  font-weight: bold;
+}
+
+.stickyBar {
+  position: fixed;
+  bottom: 0;
+  right: 2rem;
+  background-color: #d3573c;
+  color: #fff;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 4px 4px 0 0;
+  font-weight: bold;
+}
